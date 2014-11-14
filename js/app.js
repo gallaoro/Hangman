@@ -64,7 +64,7 @@ var sostituisciconlettera = function () {
     $("#secret-word").html(newmasked);
 };
 var controllavittoria = function () {
-    for (var i = 0; i < secretWord.length-1; i++) {
+    for (var i = 0; i < secretWord.length; i++) {
         if (foundarray[i] === false) {
             return false;
         }
