@@ -9,3 +9,9 @@ body{
 .invisible{
     display:none;
 }
+.input{
+    padding 5px;
+}
+.btn-try{
+    padding 5px;
+}
