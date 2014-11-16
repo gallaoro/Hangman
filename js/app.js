@@ -23,7 +23,7 @@ $(document).ready(function () {
 var secretWord, maskedWord,
         foundarray = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
         ntry = 0, lettera, vittoria = false;
-var WORDS = ["abbaino", "cagnolino", "coccodrillo", "rubino", "programmazione", "tariffazione", "fascia", "immacolato", "aiuole", "casstello", "zattera", "caleidoscopio", "terrestre", "camaleonte", "serbatoio", "catarifrangente"];
+var WORDS = ["abbaino", "cagnolino","coccodrillo","rubino","programmazione","tariffazione","fascia","immacolato","aiuole","castello","zattera","caleidoscopio","terrestre","camaleonte","serbatoio","catarifrangente","lampadina","scottatura","soddisfazione","cornetta","cappuccino","espresso","fazzoletto","intervista","mastice","pneumatico","atlante","testamento","leggenda","dizionario"];
 var start = function () {
     secretWord = WORDS[Math.floor((Math.random() * WORDS.length))];
     maskedWord = "";
