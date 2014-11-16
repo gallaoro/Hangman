@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".input").focus();
     start();
     $(document).on("click", ".btn-try", function () {
         lettera = $(".input").val();
